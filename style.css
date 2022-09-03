@@ -1,0 +1,93 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+body {
+  /*font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;*/
+  background-color: #ACC2B1;
+  margin: 2em;
+}
+
+/* STYLE TEXT */
+h1 {
+  font-family: 'Arvo', serif;
+  font-style: italic;
+  color:  #6E65A6;
+  margin-left: 30%;
+  padding-bottom: 10px;
+}
+
+h2 {
+  font-family: 'Arvo', serif;
+  margin-top: 2em;
+  margin-left: 24%;
+}
+
+/* STYLE FLEX CONTAINER */
+.question {
+  display: flex;
+  /* uncomment the next line to center the questions and answers */
+  justify-content: center; 
+  margin-top: 2em;
+  font-family: 'Arvo', serif;
+}
+  
+/* STYLE FLEX ITEM */
+.answer-choice {
+  margin: 5px;
+  font-family: 'Arvo', serif;
+}
+
+/* STYLE IMAGES */
+.answer-choice img {
+  /*height: 10em;*/
+  height: 300px;
+  width: 250px;
+  object-fit: cover;
+  padding: 20px;
+}
+
+/* STYLE BUTTON */
+button { 
+  margin-top: 5px;
+  font-family: 'Arvo', serif;
+  justify-content: center; 
+  text-align: center;
+  list-style-type: none;
+  display: inline-block;
+  background-color: #6E65A6;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  color: #EFF6EE;
+  border: 0;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 20px;
+  justify-content:center;
+  border-radius: 20px;
+  font-size: 15px;
+  margin-left: 40px;
+}
+button:hover{
+  background-color: #6C91D9;
+  color: #EFF6EE;
+  transform: scale(1.15);
+}
+
+p{
+  font-family: 'Arvo', serif;
+  margin-left: 24%;
+  color: #221440;
+}
+p1{
+  margin-left: 45px;
+}
+p2{
+  margin-left: 45px;
+}
+.GIF{
+  margin-left: 40%;
+  padding-top: 40px;
+}
+
+
